@@ -265,7 +265,7 @@ header{
 
 .hero-text-box{
     position: absolute;
-    float: right;
+    text-align: right;
     width: 1140px;
     top: 50%;
     left: 50%;
@@ -358,6 +358,23 @@ header{
 
 .section-features .long-copy{
     margin-bottom: 30px;
+    text-align: center;
+}
+
+.sale-sections .houses{
+    background: url(../img/casas.jpg) 50% 50%;
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+.sale-sections img{
+        transform: scale(0.5);
+    height: 200px;
+    width: 200px;
+    border-radius: 50% 50%;
+    align-content: center;
+    vertical-align: middle;
 }
 
 /* ----------------------------------------------------- */
